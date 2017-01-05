@@ -56,6 +56,11 @@ var TodoApp = React.createClass({
 
     return (
       <div>
+        <div className="top-bar">
+          <div className="top-bar-right">
+            <p className="header-title">gVLQ</p>
+          </div>
+        </div>
         <h3 className="page-title">Todo App</h3>
         <div className="row">
           <div className="column small-centered small-11 medium-6 large-5">
